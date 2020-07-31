@@ -1,0 +1,38 @@
+.About {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-grow: 1;
+    width: 100%;
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
+
+.About > div {
+    color: #fff;
+    border: 3px solid #fff;
+    width: 1000px;
+    height: 400px;
+    font-size: 1.5em;
+}
+
+.About h1 {
+    text-align: center;
+    border-bottom: 2px solid #fff;
+}
+
+.About ul {
+    list-style: none;
+}
+
+.About ul li {
+    padding-bottom: 5px;
+}
+
+.About ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.About p {
+    padding-left: 10px;
+}
